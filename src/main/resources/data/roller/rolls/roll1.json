@@ -1,0 +1,42 @@
+{
+  "id": "roll1",
+  "frames": [
+    {
+      "frame_id": "f1",
+      "texture": "roller:textures/gui/f1.png",
+      "weight": 1.0,
+      "duration": 200,
+      "actions": [
+        {
+          "type": "set_flag",
+          "key": "has_used_wheel",
+          "flagValue": true
+        },
+        {
+          "type": "add_value",
+          "key": "darkness_level",
+          "value": 2.5
+        }
+      ]
+    },
+    {
+      "frame_id": "f2",
+      "texture": "roller:textures/gui/f2.png",
+      "weight": 2.0,
+      "duration": 200,
+      "actions": [
+        { "type": "attribute", "attribute": "minecraft:generic.max_health", "modifier": -4.0, "operation": "add" }
+      ]
+    },
+    {
+      "frame_id": "f3",
+      "texture": "roller:textures/gui/f3.png",
+      "weight": 1.0,
+      "duration": 200,
+      "actions": [
+        { "type": "give_item", "item": "minecraft:gold_ingot", "count": 5 },
+        { "type": "effect", "effect": "minecraft:luck", "duration": 200, "amplifier": 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "roll2",
+  "frames": [
+    {
+      "frame_id": "f1",
+      "texture": "roller:textures/gui/paschalko/f1.png",
+      "weight": 3.0,
+      "duration": 200,
+      "action": {
+        "type": "effect",
+        "effect_id": "minecraft:strength",
+        "duration": 200,
+        "amplifier": 1
+      }
+    },
+    {
+      "frame_id": "f2",
+      "texture": "roller:textures/gui/paschalko/f2.png",
+      "weight": 2.0,
+      "duration": 200,
+      "action": {
+        "type": "effect",
+        "effect_id": "minecraft:speed",
+        "duration": 200,
+        "amplifier": 1
+      }
+    },
+    {
+      "frame_id": "f3",
+      "texture": "roller:textures/gui/paschalko/f3.png",
+      "weight": 1.0,
+      "duration": 200,
+      "action": {
+        "type": "item",
+        "item_id": "minecraft:apple",
+        "count": 5
+      }
+    },
+    {
+      "frame_id": "f4",
+      "texture": "roller:textures/gui/paschalko/f4.png",
+      "weight": 1.0,
+      "duration": 200,
+      "action": {
+        "type": "item",
+        "item_id": "minecraft:apple",
+        "count": 5
+      }
+    },
+    {
+      "frame_id": "f5",
+      "texture": "roller:textures/gui/paschalko/f5.png",
+      "weight": 1.0,
+      "duration": 200,
+      "action": {
+        "type": "item",
+        "item_id": "minecraft:apple",
+        "count": 5
+      }
+    },
+    {
+      "frame_id": "f6",
+      "texture": "roller:textures/gui/paschalko/f6.png",
+      "weight": 1.0,
+      "duration": 200,
+      "action": {
+        "type": "item",
+        "item_id": "minecraft:apple",
+        "count": 5
+      }
+    },
+    {
+      "frame_id": "f7",
+      "texture": "roller:textures/gui/paschalko/f7.png",
+      "weight": 1.0,
+      "duration": 200,
+      "action": {
+        "type": "item",
+        "item_id": "minecraft:apple",
+        "count": 5
+      }
+    }
+  ]
+}
